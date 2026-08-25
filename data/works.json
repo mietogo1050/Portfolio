@@ -1,0 +1,91 @@
+{
+"status": 200,
+"message": null,
+"works": [
+{
+"id": 1,
+"title": "パーソナルカードアプリ tomoca",
+"date": "2026-07-23",
+"category":"JavaScript",
+"url": "https://mietogo1050.github.io/app_tomoca/",
+"github": "https://github.com/mietogo1050/app_tomoca.git",
+"description": "去年の誕生日になにあげたっけ？ 子どもの習い事の友人関係をまとめておきたい。そんな友だちにまつわる情報をまとめておける現代版のプロフィール帳。",
+"img": "works_01.png"
+},
+{
+"id": 2,
+"title": "おみくじアプリ",
+"date": "2026-06-15",
+"category": "Vue.js",
+"url": "https://mietogo1050.github.io/omikuji.app/",
+"github": "https://github.com/mietogo1050/omikuji.app.git",
+"description": "Vue.jsで実装したおみくじアプリ。v-ifディレクティブを使い、結果の表示/非表示を切り替えています。",
+"img": "works_02.png"
+},
+{
+"id": 3,
+"title": "WCBカフェ ホームページ",
+"type":"app",
+"date": "2026-06-25",
+"category": ["Vue.js", "HTML5", "CSS3"],
+"url": "https://mietogo1050.github.io/WCBCafe_vue2/",
+"github": "https://github.com/mietogo1050/WCBCafe_vue2.git",
+"description": "架空のカフェ、WCBカフェのホームページ。TOPページ、ニュースページ、メニューページ、お問い合わせの4ページで構成。HTML/CSSでコーディングしたのち、Vue.jsでコンポーネント化しました。",
+"img": "works_03.png"
+},
+{
+"id": 4,
+"title": "ストレス診断アプリ",
+"type":"app",
+"date": "2026-06-17",
+"category": "Vue.js",
+"url": "https://mietogo1050.github.io/stresscheck.app/",
+"github": "https://github.com/mietogo1050/stresscheck.app.git",
+"description": "「はい」「いいえ」の2択の質問に回答し、合計ポイントによってストレス度を判定する診断コンテンツです。設問の切り替えには、トランジションを使用し、簡単なアニメーションをつけています。",
+"img": "works_04.png"
+},
+{
+"id": 5,
+"title": "BMI診断アプリ",
+"type":"app",
+"date": "2026-05-29",
+"category": "JavaScript",
+"url": "https://mietogo1050.github.io/bmi_app/",
+"github": "https://github.com/mietogo1050/bmi_app.git",
+"description": "入力された身長、体重の数値をもとにBMIを算出するシンプルなアプリ。LocalStorageに算出履歴を残します。BMI値を計算する関数、肥満度を判定する関数、履歴一覧を描画する関数をJava.Scriptでリファクタリングしました",
+"img": "works_05.png"
+},
+{
+"id": 6,
+"title": "今日のわんこ",
+"type":"app",
+"date": "2026-06-08",
+"category":"JavaScript",
+"url": "https://mietogo1050.github.io/dog_api/",
+"github": "https://github.com/mietogo1050/dog_api.git",
+"description": "サーバーやデータベースから必要な情報を取得するフェッチを使った癒し系犬アプリです。ボタンを押すとランダムに犬の画像を表示。犬種でのフィルターも可能なので好きな犬種を際限なく見ていられる癒し系アプリです",
+"img": "works_06.png"
+},
+{
+"id": 7,
+"title": "オンライングリーティングカード_母の日",
+"type":"app",
+"date": "2026-07-27",
+"category":"Vue.js",
+"url": "https://mietogo1050.github.io/app_greetingcard/",
+"github": "https://github.com/mietogo1050/app_greetingcard.git",
+"description": "オンラインで手軽に送ることができるグリーティングカード。母の日verではカーネーションの花束を10本集めるとメッセージカードが表示されます。JavaScriptを使用。花束の画像はCanvaで作成しました。",
+"img": "works_07.png"
+},
+{
+"id": 8,
+"title": "部活配車アプリ Noriai",
+"type":"app",
+"date": "2026-08-11",
+"category":"Vue.js",
+"url": "https://mietogo1050.github.io/app_dispatcher/",
+"github": "https://github.com/mietogo1050/app_dispatcher.git",
+"description": "部活の配車を簡単に行えるアプリ。工夫した点は、1.部員登録されているメンバーのほか、登録のない人も配車対象にできる、2.自動的に配車を振り分けた後で、手動での変更にも対応、3.交通費の負担額が自動算出される。LINE等で全体配信することを想定しています。",
+"img": "works_08.png"
+}
+]}
