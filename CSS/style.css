@@ -213,7 +213,7 @@ body:has(.header.open) {
     max-width: 600px;
     background-color: #ffffff;
     overflow: hidden;
-    align-items: center;
+    margin:auto;
 }
 
 .works-modal::backdrop {
