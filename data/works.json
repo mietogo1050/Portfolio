@@ -87,5 +87,16 @@
 "github": "https://github.com/mietogo1050/app_dispatcher.git",
 "description": "部活の配車を簡単に行えるアプリ。工夫した点は、1.部員登録されているメンバーのほか、登録のない人も配車対象にできる、2.自動的に配車を振り分けた後で、手動での変更にも対応、3.交通費の負担額が自動算出される。LINE等で全体配信することを想定しています。",
 "img": "works_08.png"
+},
+{
+"id": 9,
+"title": "ふくおか餃子FES  ホームページ",
+"type":"app",
+"date": "2026-09-10",
+"category":["Vue.js", "HTML5", "CSS3"],
+"url": "https://mietogo1050.github.io/Fukuoka-Gyozafes-website/",
+"github": "https://github.com/mietogo1050/Fukuoka-Gyozafes-website.git",
+"description": "架空のイベント「ふくおか餃子FES」のHPをグループ制作しました。コンセプトは、「福岡のご当地餃子や創作餃子を一度に楽しめる餃子のテーマパーク」。ロゴ制作、開催概要、TOPページのメニューセクションを担当。レスポンシブ対応、ハンバーガーメニュー、Vueコンポーネント等を活用しています。",
+"img": "works_09.png"
 }
 ]}
