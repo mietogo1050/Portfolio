@@ -49,6 +49,12 @@ body:has(.header.open) {
     overflow-y: hidden;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: #999999;
+    opacity: 1;
+}
+
 /* レイアウト */
 .section {
     margin-bottom:80px;
@@ -153,22 +159,7 @@ body:has(.header.open) {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-
-}
-
-.mv-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-.mv-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 0 20px;
+    background-color: #f9f9f7;
 }
 
 .works-list {

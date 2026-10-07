@@ -28,10 +28,10 @@
 <body>
     <div id="app">
         <header-component :is-nav-open="isNavOpen" :menu-links="headerMenu" @toggle-nav="toggleNav"></header-component>
+        <div class="mv">
+            <img src="/images/myself.png" alt="mv">
+        </div>
         <div class="wrapper">
-            <section class="mv">
-                <img src="./images/myself.png" alt="メインビジュアル">
-            </section>
             <section class="section" id="profile">
                 <div class="container">
                     <h2 class="title">Profile</h2>
@@ -135,12 +135,13 @@
                     style="max-width: 600px; margin: 0 auto;">
                     <div class="form-group mb-3">
                         <label class="form-label" for="user-name">お名前</label>
-                        <input type="text" name="user-name" id="user-name" class="form-control" required
-                            placeholder="お名前">
+                        <input type="text" name="user-name" id="user-name" class="form-control" required minlength="2"
+                            placeholder="お名前" oninvalid="this.value === '' ? this.setCustomValidity('お名前を入力してください。') : this.setCustomValidity('お名前は2文字以上で入力してください。')" oninput="this.setCustomValidity('')">
                     </div>
                     <div class="form-group mb-3">
                         <label class="form-label" for="email">メールアドレス</label>
-                        <input type="email" name="email" id="email" class="form-control" required placeholder="メールアドレス">
+                        <input type="email" name="email" id="email" class="form-control" required placeholder="メールアドレス" oninvalid="this.setCustomValidity('メールアドレスの形式が正しくありません。')"
+                        oninput="this.setCustomValidity('')">
                     </div>
                     <div class="form-group mb-3">
                         <label class="form-label" for="message">内容</label>
